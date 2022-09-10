@@ -24,6 +24,38 @@ public class Review {
         this.description = description;
     }
 
+    public int getReviewId() {
+        return reviewId;
+    }
+
+    public void setReviewId(int reviewId) {
+        this.reviewId = reviewId;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
+    }
+
+    public int getSpiritId() {
+        return spiritId;
+    }
+
+    public void setSpiritId(int spiritId) {
+        this.spiritId = spiritId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public String toString(){
         return "Review [id=" + reviewId + ", rating=" + rating + ", spiritId=" + spiritId + ", description=" + description
